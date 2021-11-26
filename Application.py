@@ -37,6 +37,8 @@ class Application:
                 self.article_dict[article_id] = models.Article(**article_detail)
                 utils.print_article(self.article_dict[article_id])
                 utils.save_article(article_detail, article_id, DATA_DIR, HISTORY_EXTENSION)
+            else:
+                logger.info("Article " + article_id + " already present in history.")
 
     def process_articles(self, article_id):
         article_detail = utils.fetch_url_data(self.article_detail_url.format(article_id))
