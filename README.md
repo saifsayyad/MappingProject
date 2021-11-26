@@ -41,7 +41,7 @@ ______________________
 * Writing more thorough test cases.
 * Implementing advanced `caching` mechanism.
 * Improving __Printing__ format.
-
+* Improving Folder structure.
 
 -------------------------------------
 > **_Time To Create:_**  It took around 12-14 hrs to complete this project.
