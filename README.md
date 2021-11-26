@@ -8,6 +8,8 @@ If media is found in Article details section, Media info is fetched from
 
 All of this info is stored in `Article` model and printed for each article.
 
+________________________
+
 ### Steps to start Application:
 
 * Create python virtual env
@@ -24,6 +26,8 @@ All of this info is stored in `Article` model and printed for each article.
 ```shell
 python main.py --history --interval 3
 ```
+
+______________________
 
 ### Test Strategy:
 
